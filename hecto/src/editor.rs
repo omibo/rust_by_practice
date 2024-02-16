@@ -19,14 +19,14 @@ impl Editor {
                         }
                     }
                     Key::Ctrl('q') => break,
-                    _ => println!("{:?}\r", key),
+                    _ => println!("{key:?}\r"),
                 },
-                Err(err) => panic!("{}", err),
+                Err(err) => panic!("{err}"),
             }
         }
     }
 
     pub fn default() -> Self {
-        Editor {}
+        Self {}
     }
 }
