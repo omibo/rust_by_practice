@@ -2,7 +2,7 @@
 .DS_Store
 
 ## Configuration
-/config.toml
+*/Cargo.lock
 
 ## Build
-/target
+*/target
